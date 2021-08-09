@@ -1,0 +1,19 @@
+if :Chk<1 then goto1 end
+a=:1c b=:2c c=:3c d=:4c e=:5c f=:6c g=:7c h=:8c i=:9c b1=0 b2=0
+Win=a*(a>0 and a==b and a==c) +d*(d>0 and d==e and d==f)
+Win+=g*(g>0 and g==h and g==i) +a*(a>0 and a==d and a==g)
+Win+=b*(b>0 and b==e and b==h) +c*(c>0 and c==f and c==i)
+Win+=a*(a>0 and a==e and a==i) +c*(c>0 and c==e and c==g) :Chk=0
+if Win then :TicTacToe="\nPlayer "+Win +" Winns!" goto9 end goto11
+
+:1=0 :2=0 :3=0 :4=0 :5=0 :6=0 :7=0 :8=0 :9=0 :turn=1
+:1c=0 :2c=0 :3c=0 :4c=0 :5c=0 :6c=0 :7c=0 :8c=0 :9c=0 Win=0 goto1
+if a andb and c andd ande andf andg andh andi then goto12 end goto1
+:TicTacToe = "Its a Tie!" goto9
+
+
+
+
+
+
+
