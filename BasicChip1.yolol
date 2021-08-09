@@ -1,0 +1,14 @@
+if:chk then goto1 endre=1 a=:1 b=:2 c=:3 d=:4 e=:5 f=:6 g=:7 h=:8 i=:9
+co=a+b+c+d+e+f+g+h+i bu=a+b*2+c*3+d*4+e*5+f*6+g*7+h*8+i*9+3 :Check=0
+if co==1 then gotobu end if co>1 then re=1 goto13 end goto1
+if :1c<1 then :1c=:turn re=14 else re=1 end goto13
+if :2c<1 then :2c=:turn re=14 else re=1 end goto13
+if :3c<1 then :3c=:turn re=14 else re=1 end goto13
+if :4c<1 then :4c=:turn re=14 else re=1 end goto13
+if :5c<1 then :5c=:turn re=14 else re=1 end goto13
+if :6c<1 then :6c=:turn re=14 else re=1 end goto13
+if :7c<1 then :7c=:turn re=14 else re=1 end goto13
+if :8c<1 then :8c=:turn re=14 else re=1 end goto13
+if :9c<1 then :9c=:turn re=14 else re=1 end goto13
+:1=0 :2=0 :3=0 :4=0 :5=0 :6=0 :7=0 :8=0 :9=0 gotore
+if :turn<2 then :turn=2 else :turn=1 end :Chk=1  goto1
