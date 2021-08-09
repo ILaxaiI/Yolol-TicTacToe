@@ -11,7 +11,7 @@ if Win then :TicTacToe="\nPlayer "+Win+" Wins!" goto9 end goto11
 if not :a*:b*:c*:d*:e*:f*:g*:h*:i then goto1 end
 :TicTacToe= "Its a Tie!" goto9
 
-
+// Rename This ChipWait to Chk to 
 
 
 
